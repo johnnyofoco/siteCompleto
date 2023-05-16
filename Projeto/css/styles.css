@@ -379,11 +379,13 @@ i {
   flex: 1 1 0;
 }
 
+
 #contact-information .section-subtitle{
   color: var(--primary-text-color);
 }
 
-#contact-information{
+
+#contact-information i{
   position: absolute;
   top: 0;
   left: 0;
