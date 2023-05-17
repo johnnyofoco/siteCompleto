@@ -80,6 +80,10 @@ i {
   opacity: 1;
 }
 
+.banner.active p{
+  margin-top: 4rem;
+}
+
 .banner {
   max-width: 50%; /* Limit width from banner container */
   padding: 4rem;
@@ -96,7 +100,7 @@ i {
 }
 
 .banner p {
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
 }
 
 .square {
