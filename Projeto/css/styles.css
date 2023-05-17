@@ -577,24 +577,115 @@ i {
 
     .banner h2{
       font-size: 3rem;
+    }
+    
+    .banner p{
+      font-size: 1rem;
     } 
   
   /* ############ Action areas (main) ############ */
-  
+    .btn{
+      align-self: initial;
+    }
+
+    .image-container{
+      flex: 1 1 100%;
+    }
+
+    #other-services{
+      flex-wrap: wrap;
+    }
 
   /* ############ About us section ############ */
-  
+    #about{
+      gap: 0;
+    }
+
+    #about-text,
+    #about-data{
+      flex: 1 1 100%;
+    }
+
+    .about-description{
+      gap: 1rem;
+    }
+
+    .about-description i{
+      padding: 0;
+      min-width: 40px;
+    }
+
+    #about #about-data .data{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid var(--secondary-text-color);
+    }
 
   /* ############ Testimonial section ############ */
-  
+    .text-container{
+      text-align: center;
+      padding: 2rem;
+    }
 
   /* ############ Employees Section ############ */
-  
+    #team{
+      margin-top: 2rem;
+    }
+
+    #team h2{
+      font-size: 2.5rem;
+    }
+
+    .employees{
+      flex-wrap: wrap;
+    }
 
   /* ############ Contact section ############ */
-  
+    #contact{
+      padding-bottom: 0;
+    }
+
+    #contact-information{
+      padding: 7rem 1rem;
+    }
+
+    #contact-information .form-control{
+      flex-direction: column;
+    }
+
+    #contact-information .btn{
+      align-self: auto;
+    }
 
   /* ############ Footer ############ */
+    #footer{
+      flex-wrap: wrap;
+    }
 
+    #footer i{
+      font-size: 2rem;
+      padding: 1rem;
+    }
+
+    #footer-brand{
+      text-align: center;
+    }
+
+    .networks{
+      margin-bottom: 3rem;
+    }
+
+    .links-container{
+      margin-bottom: 1rem;
+    }
+
+    .links-container h4{
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-info,
+    .links-container{
+      width: 100%;
+    }
 
 }
